@@ -2,7 +2,7 @@
    Precaches the app shell + encrypted bootstrap bundle so the app installs and
    runs fully offline. Navigation = network-first (so a redeploy shows up), static
    assets = cache-first. Bump CACHE to force clients onto a new build. */
-const CACHE = "legion-v6";
+const CACHE = "legion-v7";
 const ASSETS = [
   "./", "./index.html", "./manifest.webmanifest",
   "./app/data.enc.js",
